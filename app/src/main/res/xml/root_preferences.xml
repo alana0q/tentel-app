@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="tentel"
+        app:title="@string/tentel_preferences_title"
+        app:summary="@string/tentel_preferences_summary"
+        app:fragment="com.tentel.app.fragments.settings.tentelPreferencesFragment"/>
+
+    <Preference
+        app:key="tentel_api"
+        app:title="@string/tentel_api_preferences_title"
+        app:summary="@string/tentel_api_preferences_summary"
+        app:isPreferenceVisible="false"
+        app:fragment="com.tentel.app.fragments.settings.tentelAPIPreferencesFragment"/>
+
+    <Preference
+        app:key="tentel_float"
+        app:title="@string/tentel_float_preferences_title"
+        app:summary="@string/tentel_float_preferences_summary"
+        app:isPreferenceVisible="false"
+        app:fragment="com.tentel.app.fragments.settings.tentelFloatPreferencesFragment"/>
+
+    <Preference
+        app:key="tentel_tasker"
+        app:title="@string/tentel_tasker_preferences_title"
+        app:summary="@string/tentel_tasker_preferences_summary"
+        app:isPreferenceVisible="false"
+        app:fragment="com.tentel.app.fragments.settings.tentelTaskerPreferencesFragment"/>
+
+    <Preference
+        app:key="tentel_widget"
+        app:title="@string/tentel_widget_preferences_title"
+        app:summary="@string/tentel_widget_preferences_summary"
+        app:isPreferenceVisible="false"
+        app:fragment="com.tentel.app.fragments.settings.tentelWidgetPreferencesFragment"/>
+
+    <Preference
+        app:key="about"
+        app:title="@string/about_preference_title"
+        app:persistent="false"/>
+    <!-- app:layout="@layout/preference_markdown_text" -->
+
+    <Preference
+        app:key="donate"
+        app:title="@string/donate_preference_title"
+        app:persistent="false"
+        app:isPreferenceVisible="false"/>
+
+</PreferenceScreen>

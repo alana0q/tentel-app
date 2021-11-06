@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:title="@string/tentel_debugging_preferences_title"
+        app:summary="@string/tentel_debugging_preferences_summary"
+        app:fragment="com.tentel.app.fragments.settings.tentel_float.DebuggingPreferencesFragment"/>
+
+</PreferenceScreen>

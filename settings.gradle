@@ -1,0 +1,1 @@
+include ':app', ':tentel-shared', ':terminal-emulator', ':terminal-view'

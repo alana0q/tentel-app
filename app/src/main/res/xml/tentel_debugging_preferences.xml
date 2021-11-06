@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="logging"
+        app:title="@string/tentel_logging_header">
+
+        <ListPreference
+            app:defaultValue="1"
+            app:key="log_level"
+            app:title="@string/tentel_log_level_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="terminal_view_key_logging_enabled"
+            app:summaryOff="@string/tentel_terminal_view_key_logging_enabled_off"
+            app:summaryOn="@string/tentel_terminal_view_key_logging_enabled_on"
+            app:title="@string/tentel_terminal_view_key_logging_enabled_title" />
+
+        <SwitchPreferenceCompat
+            app:key="plugin_error_notifications_enabled"
+            app:summaryOff="@string/tentel_plugin_error_notifications_enabled_off"
+            app:summaryOn="@string/tentel_plugin_error_notifications_enabled_on"
+            app:title="@string/tentel_plugin_error_notifications_enabled_title" />
+
+        <SwitchPreferenceCompat
+            app:key="crash_report_notifications_enabled"
+            app:summaryOff="@string/tentel_crash_report_notifications_enabled_off"
+            app:summaryOn="@string/tentel_crash_report_notifications_enabled_on"
+            app:title="@string/tentel_crash_report_notifications_enabled_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
