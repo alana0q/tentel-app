@@ -16,6 +16,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Build
       run: |
+        /usr/bin/chmod +x ./gradlew
+      run: |
         ./gradlew assembleDebug
     - name: Store generated universal APK file
       uses: actions/upload-artifact@v2
