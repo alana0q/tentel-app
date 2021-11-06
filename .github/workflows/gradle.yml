@@ -14,9 +14,10 @@ jobs:
     steps:
     - name: Clone repository
       uses: actions/checkout@v2
-    - name: Build
+    - name: chmod 
       run: |
         /usr/bin/chmod +x ./gradlew
+   - name: Build
       run: |
         ./gradlew assembleDebug
     - name: Store generated universal APK file
